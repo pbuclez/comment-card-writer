@@ -14,6 +14,8 @@
 		C317EF9329925ACF00BAB20D /* Comment_Card_WriterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C317EF9229925ACF00BAB20D /* Comment_Card_WriterTests.swift */; };
 		C317EF9D29925ACF00BAB20D /* Comment_Card_WriterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C317EF9C29925ACF00BAB20D /* Comment_Card_WriterUITests.swift */; };
 		C317EF9F29925ACF00BAB20D /* Comment_Card_WriterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C317EF9E29925ACF00BAB20D /* Comment_Card_WriterUITestsLaunchTests.swift */; };
+		C317EFAD29925DF000BAB20D /* Divisions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C317EFAC29925DF000BAB20D /* Divisions.swift */; };
+		C3FED3B72993A38A00A9F74A /* studentInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FED3B62993A38A00A9F74A /* studentInput.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		C317EF9829925ACF00BAB20D /* Comment Card WriterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Comment Card WriterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C317EF9C29925ACF00BAB20D /* Comment_Card_WriterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment_Card_WriterUITests.swift; sourceTree = "<group>"; };
 		C317EF9E29925ACF00BAB20D /* Comment_Card_WriterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment_Card_WriterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C317EFAC29925DF000BAB20D /* Divisions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Divisions.swift; sourceTree = "<group>"; };
+		C3FED3B62993A38A00A9F74A /* studentInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = studentInput.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +98,10 @@
 		C317EF8029925ACE00BAB20D /* Comment Card Writer */ = {
 			isa = PBXGroup;
 			children = (
+				C317EFAB29925DBC00BAB20D /* Model */,
 				C317EF8129925ACE00BAB20D /* Comment_Card_WriterApp.swift */,
 				C317EF8329925ACE00BAB20D /* ContentView.swift */,
+				C3FED3B62993A38A00A9F74A /* studentInput.swift */,
 				C317EF8529925ACF00BAB20D /* Assets.xcassets */,
 				C317EF8729925ACF00BAB20D /* Preview Content */,
 			);
@@ -125,6 +131,14 @@
 				C317EF9E29925ACF00BAB20D /* Comment_Card_WriterUITestsLaunchTests.swift */,
 			);
 			path = "Comment Card WriterUITests";
+			sourceTree = "<group>";
+		};
+		C317EFAB29925DBC00BAB20D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C317EFAC29925DF000BAB20D /* Divisions.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +271,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3FED3B72993A38A00A9F74A /* studentInput.swift in Sources */,
 				C317EF8429925ACE00BAB20D /* ContentView.swift in Sources */,
+				C317EFAD29925DF000BAB20D /* Divisions.swift in Sources */,
 				C317EF8229925ACE00BAB20D /* Comment_Card_WriterApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
